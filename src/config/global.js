@@ -1,17 +1,19 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'La explotación acuícola criterios técnicos y normas vigentes',
+    descripcionCurso:
+      'El componente formativo sobre bioseguridad en acuicultura abarca normas, riesgos y buenas prácticas para prevenir enfermedades en especies acuáticas. Incluye manejo adecuado de instalaciones, uso responsable de medicamentos, control de plagas, cuarentena, y selección de semillas. También se menciona la importancia de condiciones sanitarias y del personal capacitado para garantizar una producción acuícola sostenible y segura.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -31,28 +33,42 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Bioseguridad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de producción',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Área de explotación acuícola',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Instalaciones, equipos y utensilios',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Selección de semilla',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Prácticas rutinarias en bioseguridad',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Condiciones sanitarias en la producción acuícola',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
