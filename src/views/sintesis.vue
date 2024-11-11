@@ -2,12 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 A continuación, se presenta una síntesis de la temática estudiada en el componente formativo.
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta  las estrategias de bioseguridad para prevenir riesgos sanitarios en la acuicultura. Se destacan los riesgos en acuicultura, como enfermedades por transporte de animales, uso de medicamentos y especies invasoras. El plan de producción incluye tipos de explotaciones (extensiva e intensiva), el área de explotación, la evaluación del sitio y la calidad del agua. Las prácticas de bioseguridad abarcan cuarentena, control de plagas y uso responsable de medicamentos. Finalmente, las condiciones sanitarias se enfocan en el monitoreo de enfermedades, tratamiento de estanques y capacitación del personal.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
