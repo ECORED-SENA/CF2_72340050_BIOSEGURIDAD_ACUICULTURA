@@ -214,7 +214,7 @@
           .row.justify-content-center
             .col-lg-7(data-aos="fade-right")
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
-                .row(titulo="Procedimientos bioseguridad")
+                .row(titulo="Procedimientos de bioseguridad")
                   .col-12
                     p.mb-0 Asegurar su correcta implementación.
                 .row(titulo="Instalar cercado")

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'La explotación acuícola criterios técnicos y normas vigentes',
     descripcionCurso:
-      'El componente formativo sobre bioseguridad en acuicultura abarca normas, riesgos y buenas prácticas para prevenir enfermedades en especies acuáticas. Incluye manejo adecuado de instalaciones, uso responsable de medicamentos, control de plagas, cuarentena, y selección de semillas. También se menciona la importancia de condiciones sanitarias y del personal capacitado para garantizar una producción acuícola sostenible y segura.',
+      'El componente formativo sobre bioseguridad en acuicultura abarca normas, riesgos y buenas prácticas para prevenir enfermedades en especies acuáticas. Incluye manejo adecuado de instalaciones, uso responsable de medicamentos, control de plagas, cuarentena, y selección de semillas. También se menciona la importancia de condiciones sanitarias y de personal capacitado para garantizar una producción acuícola sostenible y segura.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -239,7 +239,7 @@ export default {
           centro: 'Centro de Comercio y servicios - Regional Tolima',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -273,11 +273,11 @@ export default {
         //  cargo: 'Validador y vinculador de recursos educativos digitales',
         //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
         //},
-        //{
-        //  nombre: 'Jaime Hernán Tejada Llano',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',

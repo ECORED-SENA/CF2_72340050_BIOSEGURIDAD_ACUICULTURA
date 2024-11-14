@@ -22,7 +22,7 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el principal objetivo de la bioseguridad en acuicultura? Proteger la salud de los animales acuáticos.',
+            '¿Cuál es el principal objetivo de la bioseguridad en acuicultura?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -45,8 +45,7 @@ export default {
             },
             {
               id: 'd',
-              texto:
-                '¿Cuál es el principal objetivo de la bioseguridad en acuicultura? Proteger la salud de los animales acuáticos.',
+              texto: 'Proteger la salud de los animales acuáticos',
               esCorrecta: false,
             },
           ],
