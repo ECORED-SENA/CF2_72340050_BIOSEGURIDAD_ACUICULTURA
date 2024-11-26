@@ -196,7 +196,7 @@
                     p Lo invitamos a escuchar el siguiente Pódcast:
                     TarjetaAudio.color-primario(
                       texto="Selección de semilla"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/componentes/audios/seleccion_de_semilla.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
             .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
